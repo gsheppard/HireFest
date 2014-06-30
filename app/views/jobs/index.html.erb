@@ -3,8 +3,26 @@
 <% end %>
 <button id="ajax_btn">Refresh</button>
 
+<table>
+  <thead>
+    <td>Date</td>
+    <td>Author</td>
+    <td>Body</td>
+    <td>Location</td>
+    <td>Keywords</td>
+  </thead>
 
-<%= @jobs.each do |job| %>
+  <tbody>
 
+    <% @jobs.each do |job| %>
+      <tr>
+        <td><%= job.date_posted %></td>
+        <td><%= job.author %></td>
+        <td><%= job.text %></td>
+        <td><%= job.location %></td>
+        <td>Keywords</td>
+      </tr>
+    <% end %>
 
-<% end %>
+  </tbody>
+</table>

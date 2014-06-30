@@ -1,7 +1,7 @@
 class JobsController < ApplicationController
 
   def index
-    # @jobs = Job.all
+    @jobs = Job.all
 
     # response = HTTParty.get('https://hn.algolia.com/api/v1/items/7829042')
 
