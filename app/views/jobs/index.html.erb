@@ -1,0 +1,10 @@
+<%= simple_form_for :refresh, html: { id: 'refresh_form' }, remote: true do |f| %>
+  <%= f.input :post, as: :string %>
+<% end %>
+<button id="ajax_btn">Refresh</button>
+
+
+<%= @jobs.each do |job| %>
+
+
+<% end %>
