@@ -13,6 +13,8 @@ gem 'spring',        group: :development
 
 gem 'httparty'
 gem 'pry-rails', group: :development
+gem 'rufus-scheduler'
+gem 'simple_form'
 
 group :test, :development do
   gem 'rspec-rails'
