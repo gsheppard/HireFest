@@ -15,6 +15,8 @@ gem 'httparty'
 gem 'pry-rails', group: :development
 gem 'rufus-scheduler'
 gem 'simple_form'
+gem 'nokogiri'
+gem 'geocoder'
 
 group :test, :development do
   gem 'rspec-rails'
