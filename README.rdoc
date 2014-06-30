@@ -1,28 +1,7 @@
-== README
+== Hacker News HireFest (WIP)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Status: Work In Progress
 
-Things you may want to cover:
+Hacker News has a monthly "Who Is Hiring" post where companies can leave details regarding job information. Unfortunately, this information is not organized at all.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Using the Hacker News API hosted on Algolia (https://hn.algolia.com/api), this app will pull the job posting data, parse it into relevant chunks (Company Name, location, website, email, keywords) and let job seekers organize the results in a more efficient manner.
