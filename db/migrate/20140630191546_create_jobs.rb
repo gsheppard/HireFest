@@ -3,7 +3,8 @@ class CreateJobs < ActiveRecord::Migration
     create_table :jobs do |t|
       t.string :author
       t.string :location
-      t.text :text
+      t.string :email
+      t.text :body
       t.date :date_posted
     end
   end

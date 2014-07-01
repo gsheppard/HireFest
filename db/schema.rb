@@ -19,7 +19,8 @@ ActiveRecord::Schema.define(version: 20140630191546) do
   create_table "jobs", force: true do |t|
     t.string "author"
     t.string "location"
-    t.text   "text"
+    t.string "email"
+    t.text   "body"
     t.date   "date_posted"
   end
 
