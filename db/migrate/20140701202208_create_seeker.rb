@@ -6,6 +6,8 @@ class CreateSeeker < ActiveRecord::Migration
       t.boolean :relocate
       t.string :resume
       t.string :email
+      t.date :date_posted
+      t.text :body
     end
   end
 end

@@ -30,6 +30,8 @@ ActiveRecord::Schema.define(version: 20140701202208) do
     t.boolean "relocate"
     t.string  "resume"
     t.string  "email"
+    t.date    "date_posted"
+    t.text    "body"
   end
 
 end
