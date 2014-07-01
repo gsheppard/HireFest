@@ -17,6 +17,7 @@ gem 'rufus-scheduler'
 gem 'simple_form'
 gem 'nokogiri'
 gem 'geocoder'
+gem 'activerecord-import'
 
 group :test, :development do
   gem 'rspec-rails'

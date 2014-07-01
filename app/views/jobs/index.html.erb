@@ -19,10 +19,10 @@
       <tr>
         <td><%= job.date_posted %></td>
         <td><%= job.author %></td>
-        <td><%= job.body %></td>
-        <td>Email</td>
-        <td><%= job.location %></td>
-        <td>Keywords</td>
+        <td><%= truncate(job.body, length: 40) %></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     <% end %>
 
